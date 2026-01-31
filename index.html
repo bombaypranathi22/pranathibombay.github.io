@@ -1,17 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Pranathi Bombay | Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pranathi Bombay | Data Analytics Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="nav-left">Pranathi</div>
+    <div class="nav-right">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
 
-  <h1>Pranathi Bombay</h1>
-  <p>M.S. in Data Analytics Engineering, Northeastern University</p>
-  <p>Email: bombay.p@northeastern.edu</p>
+  <!-- HERO / ABOUT -->
+  <section id="about" class="section hero">
+    <div class="hero-card">
+      <h1 class="name">Pranathi Bombay</h1>
+      <p class="headline">M.S. in Data Analytics Engineering, Northeastern University • Boston, MA</p>
 
-  <a href="assets/Pranathi_Resume.pdf" download>Download Resume</a>
+      <p class="meta">
+        ✉️ <a href="mailto:bombay.p@northeastern.edu">bombay.p@northeastern.edu</a> &nbsp;|&nbsp;
+        🔗 <a href="https://www.linkedin.com/in/pranathi-bombay-7a6476175/" target="_blank" rel="noreferrer">LinkedIn</a> &nbsp;|&nbsp;
+        💻 <a href="https://github.com/bombaypranathi22" target="_blank" rel="noreferrer">GitHub</a>
+      </p>
 
+      <div class="hero-actions">
+        <a class="btn primary" href="assets/Pranathi_Resume.pdf" download>Download Resume</a>
+        <a class="btn ghost" href="#projects">View Projects</a>
+      </div>
+
+      <div class="about-box">
+        <h2>About Me</h2>
+        <p>
+          I’m a Data Analytics Engineering graduate student with hands-on experience in database design,
+          SQL querying, data preprocessing, and machine learning workflows. I enjoy turning complex datasets
+          into clear insights and well-structured reporting.
+        </p>
+        <p>
+          I’m actively seeking internships and co-ops in <b>Data Analytics</b>, <b>Data Engineering</b>,
+          and <b>Business Analytics</b>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <h2 class="section-title">Skills</h2>
+
+    <div class="grid two">
+      <div class="skill-card">
+        <h3>Programming & Analytics</h3>
+        <ul>
+          <li>Python (Pandas, NumPy, Scikit-learn)</li>
+          <li>SQL (MySQL, PostgreSQL)</li>
+          <li>EDA, Feature Engineering, Data Cleaning</li>
+          <li>Clustering, PCA, Model Evaluation</li>
+        </ul>
+      </div>
+
+      <div class="skill-card">
+        <h3>Data & Tools</h3>
+        <ul>
+          <li>Database Design & Schema Modeling</li>
+          <li>ETL Concepts & Workflows</li>
+          <li>Tableau / Power BI / Excel</li>
+          <li>Git & GitHub</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="skill-card wide">
+      <h3>Strengths</h3>
+      <p>
+        Detail-oriented analysis • Clean documentation • Clear communication • Stakeholder-friendly reporting •
+        Team collaboration
+      </p>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="projects">
+
+      <div class="project-card">
+        <div class="project-top">
+          <h3>🩸 Blood & Organ Donation Network</h3>
+          <span class="tag">MySQL • Data Modeling</span>
+        </div>
+        <p>
+          Built a donation management database to track donors, recipients, hospitals, and transplant workflows.
+          Designed schema and queries to support operational reporting and matching needs.
+        </p>
+        <div class="links">
+          <a href="https://github.com/bombaypranathi22/Blood-and-organ-donation-network" target="_blank" rel="noreferrer">
+            View GitHub
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-top">
+          <h3>🏥 Healthcare Patient Clustering & Risk Stratification</h3>
+          <span class="tag">Python • MIMIC-III • K-Means • PCA</span>
+        </div>
+        <p>
+          Applied unsupervised learning to identify patient segments using clustering (K-Means/Hierarchical),
+          dimensionality reduction (PCA), and evaluation (silhouette score) for risk stratification insights.
+        </p>
+        <div class="links">
+          <a href="https://github.com/bombaypranathi22/Healthcare-Patient-Clustering-Risk-Stratification" target="_blank" rel="noreferrer">
+            View GitHub
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-top">
+          <h3>🎭 Cartoon Facial Emotion Recognition</h3>
+          <span class="tag">Deep Learning • Computer Vision</span>
+        </div>
+        <p>
+          Built a deep learning pipeline to detect cartoon faces and classify emotions, including preprocessing,
+          face detection, model training, and performance evaluation.
+        </p>
+        <div class="links">
+          <a href="https://github.com/bombaypranathi22/Recognition-of-facial-emotions-in-cartoons-using-deep-learning-" target="_blank" rel="noreferrer">
+            View GitHub
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="project-top">
+          <h3>⚙️ MLOps Lab (Foundations)</h3>
+          <span class="tag">MLOps • Reproducibility</span>
+        </div>
+        <p>
+          Practice repo for MLOps fundamentals—clean project structure, reproducible workflows, and organized experimentation.
+          (Expanding with stronger documentation and pipeline steps.)
+        </p>
+        <div class="links">
+          <a href="https://github.com/bombaypranathi22/mlops-lab1" target="_blank" rel="noreferrer">
+            View GitHub
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card coming">
+        <div class="project-top">
+          <h3>🚧 More Projects Coming Soon</h3>
+          <span class="tag">In progress</span>
+        </div>
+        <p>
+          I’m currently adding two more projects and polishing READMEs. They’ll be published here soon.
+        </p>
+        <div class="links">
+          <a href="#contact">Contact me for details</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <h2 class="section-title">Contact</h2>
+
+    <div class="contact-card">
+      <p><b>Email:</b> <a href="mailto:bombay.p@northeastern.edu">bombay.p@northeastern.edu</a></p>
+      <p><b>Location:</b> Boston, MA</p>
+      <p><b>LinkedIn:</b>
+        <a href="https://www.linkedin.com/in/pranathi-bombay-7a6476175/" target="_blank" rel="noreferrer">
+          linkedin.com/in/pranathi-bombay-7a6476175
+        </a>
+      </p>
+      <p><b>GitHub:</b>
+        <a href="https://github.com/bombaypranathi22" target="_blank" rel="noreferrer">
+          github.com/bombaypranathi22
+        </a>
+      </p>
+      <p class="small">Open to internships / co-ops in Data Analytics, Data Engineering, and Business Analytics.</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Pranathi Bombay • Built with GitHub Pages</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
